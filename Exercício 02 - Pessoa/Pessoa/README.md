@@ -10,7 +10,7 @@ Classe Pessoa
 
 • O campo “Numero” não deve estar acessível à digitação;
 
-•Os campos “Nome”, “Sexo” e “Idade” são de preenchimento obrigatório.
+• Os campos “Nome”, “Sexo” e “Idade” são de preenchimento obrigatório.
 
 • O campo “Sexo” só deve aceitar “M” ou “F”.
 
