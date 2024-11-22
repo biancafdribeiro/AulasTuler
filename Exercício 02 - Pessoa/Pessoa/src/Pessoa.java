@@ -1,3 +1,5 @@
+//Bianca Fonseca Dantas Ribeiro - CB3025683
+
 public class Pessoa {
     private static int kp = 0; 
     private String nome;
