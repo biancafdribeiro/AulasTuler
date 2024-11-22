@@ -1,18 +1,19 @@
-## Getting Started
+## Exercício 02
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Crie a estrutura de classes indicada abaixo:
 
-## Folder Structure
+Classe Pessoa
 
-The workspace contains two folders by default, where:
+• A propriedade “kp” é estática e deve nos informar quantas pessoas distintas foram “setadas”, deve funcionar como um contador;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+• Para digitar os dados relativos a uma pessoa crie o FormPessoa conforme layout
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+• O campo “Numero” não deve estar acessível à digitação;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+•Os campos “Nome”, “Sexo” e “Idade” são de preenchimento obrigatório.
 
-## Dependency Management
+• O campo “Sexo” só deve aceitar “M” ou “F”.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+• Quando se pressionar o botão “OK” os dados digitados deverão ser transferidos ao objeto “UmaPessoa”, uma instância da classe Pessoa.
+
+• Quando se pressionar o botão “Mostrar” descarregar os dados do objeto “UmaPessoa” inclusive o contador “kp”.
